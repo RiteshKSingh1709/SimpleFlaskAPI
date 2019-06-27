@@ -18,6 +18,7 @@ app will run at default port - 5000 (Make sure some other app is not using this 
 - /emp/location/&lt;location&gt; (GET) - Get Employee by location
 - /emp/&lt;id&gt; (PUT) - Update employee record by id
 - /emp/&lt;id&gt; (DELETE) - Delete employee record by id
+- /transc (GET) -  To get all the success and failure count of above transcation
   
 ### Schema for Employee
  - id - Primary Key
