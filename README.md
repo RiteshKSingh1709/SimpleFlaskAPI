@@ -1,13 +1,13 @@
 # SimpleFlaskAPI
 
-## Initalize the Virtual Environment
+### Initalize the Virtual Environment
 source venc/bin/activate
 
-## Run Python App 
+### Run Python App 
 delete empCrud.sqlite <br>
 run `python EmpService.py`
 
-## Endpoint Defined
+### Endpoint Defined
 
 - /employee (GET)  - To get all the employees records
 - /employee (POST) - To insert employee record
@@ -18,7 +18,7 @@ run `python EmpService.py`
 - /emp/<id> (PUT) - Update employee record by id
 - /emp/<id> (DELETE) - Delete employee record by id
   
-## Schema for Employee
+### Schema for Employee
  - id - Primary Key
  - empName(String) - Employee Name
  - empAge (Age) - Employee Age
