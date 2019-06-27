@@ -60,6 +60,9 @@ transaction_schema = TransactionSchema()
 
 #Intializing Transaction 
 def intialize_transaction():
+	#Craete all the Tables
+	db.create_all()
+	#Create Intial Record for Transaction
 	dummy_record = Transaction(0, 0)
 	db.session.add(dummy_record)
 	db.session.commit()
