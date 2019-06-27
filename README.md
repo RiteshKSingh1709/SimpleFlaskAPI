@@ -1,6 +1,5 @@
 # SimpleFlaskAPI
 
----------------------------------------------------------------------------------------------------------<br>
 # Initalize the Virtual Environment
 source venc/bin/activate
 
