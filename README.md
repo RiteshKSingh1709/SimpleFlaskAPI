@@ -5,7 +5,7 @@
 source venc/bin/activate
 
 # Run Python App 
-delete empCrud.sqlite
+delete empCrud.sqlite <br>
 run `python EmpService.py`
 
 # Endpoint Defined
