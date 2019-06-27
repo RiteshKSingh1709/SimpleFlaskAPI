@@ -5,7 +5,8 @@ source venc/bin/activate
 
 ### Run Python App 
 delete empCrud.sqlite <br>
-run `python EmpService.py`
+run `python EmpService.py`<br>
+app will run at Port - 5000 (Make sure some other app is not using this port)
 
 ### Endpoint Defined
 
@@ -22,5 +23,5 @@ run `python EmpService.py`
  - id - Primary Key
  - empName(String) - Employee Name
  - empAge (Age) - Employee Age
- - location - Employee location
+ - location (String) - Employee location
  
