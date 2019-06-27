@@ -12,12 +12,12 @@ app will run at default port - 5000 (Make sure some other app is not using this 
 
 - /employee (GET)  - To get all the employees records
 - /employee (POST) - To insert employee record
-- /emp/name/<empName> (GET) - Get Employee record by employee name
-- /emp/age/<empAge> (GET) - Get Employee record by employee age
-- /emp/<id> (GET) - Get Employee record by id
-- /emp/location/<location> (GET) - Get Employee by location
-- /emp/<id> (PUT) - Update employee record by id
-- /emp/<id> (DELETE) - Delete employee record by id
+- /emp/name/&lt;empName&gt; (GET) - Get Employee record by employee name
+- /emp/age/&lt;empAge&gt; (GET) - Get Employee record by employee age
+- /emp/&lt;id&gt; (GET) - Get Employee record by id
+- /emp/location/&lt;location&gt; (GET) - Get Employee by location
+- /emp/&lt;id&gt; (PUT) - Update employee record by id
+- /emp/&lt;id&gt; (DELETE) - Delete employee record by id
   
 ### Schema for Employee
  - id - Primary Key
