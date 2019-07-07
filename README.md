@@ -1,7 +1,7 @@
 # SimpleFlaskAPI
 
 ### Initalize the Virtual Environment
-source venc/bin/activate
+`source venv/bin/activate`
 
 ### Run Python App 
 delete empCrud.sqlite <br>
@@ -23,6 +23,6 @@ app will run at default port - 5000 (Make sure some other app is not using this 
 ### Schema for Employee
  - id - Primary Key
  - empName(String) - Employee Name
- - empAge (Age) - Employee Age
+ - empAge (Integer) - Employee Age
  - location (String) - Employee location
  
